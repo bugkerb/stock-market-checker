@@ -1,0 +1,23 @@
+{
+  "name": "stock-market-checker",
+  "version": "1.0.0",
+  "description": "Real-time stock market status checker for major worldwide exchanges",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "stock-market",
+    "finance",
+    "trading",
+    "market-hours",
+    "real-time"
+  ],
+  "author": "Incubator Startup Program",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
